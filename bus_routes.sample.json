@@ -1,0 +1,1407 @@
+{
+ "source": "https://hyderabadcitybus.in/",
+ "operator": "TSRTC",
+ "generated": "2026-06-23T16:00:55.698792+00:00",
+ "note": "SAMPLE — 2 of ~700 routes. Run scrape_hyderabad_buses.py for the full set.",
+ "stops": {
+  "chandrayangutta-x-road": {
+   "name": "Chandrayangutta X Road",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "falaknuma-rly-bridge": {
+   "name": "Falaknuma RLY Bridge",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "engine-bowli": {
+   "name": "Engine Bowli",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "shamsheergunj": {
+   "name": "Shamsheergunj",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "aliyabad": {
+   "name": "Aliyabad",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "sayed-ali-chabutra": {
+   "name": "Sayed Ali Chabutra",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "lal-dharwaza-mode": {
+   "name": "Lal Dharwaza Mode",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "shah-ali-banda-x-road": {
+   "name": "Shah Ali Banda X Road",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "himmathpura-shali-banda": {
+   "name": "Himmathpura / Shali Banda",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "chowmahalla-palace": {
+   "name": "Chowmahalla Palace",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "khilwat": {
+   "name": "Khilwat",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "lad-bazar": {
+   "name": "Lad Bazar",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "moosa-bowli": {
+   "name": "Moosa Bowli",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "city-college": {
+   "name": "City College",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "high-court": {
+   "name": "High Court",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "nayapul": {
+   "name": "Nayapul",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "afzalgunj": {
+   "name": "Afzalgunj",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "osmangunj": {
+   "name": "Osmangunj",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "mozamjahi-market": {
+   "name": "Mozamjahi Market",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "abids-g-p-o": {
+   "name": "Abids (G.P.O.)",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "latha-talkies": {
+   "name": "Latha Talkies",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "nampally-railway-station": {
+   "name": "Nampally Railway Station",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "nampally-public-garden": {
+   "name": "Nampally Public Garden",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "l-b-stadium-bus-stop": {
+   "name": "L B Stadium Bus Stop",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "basheerbagh": {
+   "name": "Basheerbagh",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "liberty": {
+   "name": "Liberty",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "liberty-ghmc": {
+   "name": "Liberty – GHMC",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "mini-tankbund": {
+   "name": "Mini Tankbund",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "tank-bund": {
+   "name": "Tank Bund",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "boats-club": {
+   "name": "Boats Club",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "bible-house": {
+   "name": "Bible House",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "bata": {
+   "name": "Bata",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "patny-center": {
+   "name": "Patny Center",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "clock-tower": {
+   "name": "Clock Tower",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "sangeeth": {
+   "name": "Sangeeth",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "keys-high-school": {
+   "name": "Keys High School",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "secunderabad-railway-station": {
+   "name": "Secunderabad Railway Station",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "secunderabad-bus-station": {
+   "name": "Secunderabad Bus Station",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "dbr-mills": {
+   "name": "DBR Mills",
+   "routes": [
+    "8A",
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "nizam-college": {
+   "name": "Nizam College",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "abids": {
+   "name": "Abids",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "afzalgunj-bus-station": {
+   "name": "Afzalgunj Bus Station",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "salarjung-museum": {
+   "name": "Salarjung Museum",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "darul-shifa": {
+   "name": "Darul Shifa",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "purani-haveli": {
+   "name": "Purani Haveli",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "chadowki-masjid": {
+   "name": "Chadowki Masjid",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "bibi-bazar": {
+   "name": "Bibi Bazar",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "charminar": {
+   "name": "Charminar",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "aliyabad-shamsheergunj": {
+   "name": "Aliyabad / Shamsheergunj",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "falaknuma-terminal": {
+   "name": "Falaknuma Terminal",
+   "routes": [
+    "8A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "secretariat-l-i-c-zonal-office": {
+   "name": "Secretariat / L.I.C. Zonal Office",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "ag-office-birla-mandir": {
+   "name": "AG Office / Birla Mandir",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "lakdikapool": {
+   "name": "Lakdikapool",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "a-c-guards": {
+   "name": "A.C. Guards",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "masab-tank-jntu": {
+   "name": "Masab Tank JNTU",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "masab-tank-nmdc": {
+   "name": "Masab Tank NMDC",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "sd-hospital": {
+   "name": "SD Hospital",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "mehdipatnam": {
+   "name": "Mehdipatnam",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "rethibowli": {
+   "name": "Rethibowli",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "laxmi-nagar": {
+   "name": "Laxmi Nagar",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "jyothi-nagar": {
+   "name": "Jyothi Nagar",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "ring-road": {
+   "name": "Ring Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "attapur-x-road": {
+   "name": "Attapur X Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "hyderguda-x-road": {
+   "name": "Hyderguda X Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "upperpally-x-road": {
+   "name": "Upperpally X Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "dairy-farm": {
+   "name": "Dairy Farm",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "weaker-section-colony-shivarampally-quarters": {
+   "name": "Weaker Section Colony / Shivarampally Quarters",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "shivarampally-x-road": {
+   "name": "Shivarampally X Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "aramghar": {
+   "name": "Aramghar",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "aramghar-cross-road": {
+   "name": "Aramghar Cross Road",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "lal-dabha": {
+   "name": "Lal Dabha",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "shiva-nagar": {
+   "name": "Shiva Nagar",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "attapur": {
+   "name": "Attapur",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "mahavir-hospital": {
+   "name": "Mahavir Hospital",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "lakdikapul": {
+   "name": "Lakdikapul",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "telephone-bhavan": {
+   "name": "Telephone Bhavan",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  },
+  "secretariat-pushpak": {
+   "name": "Secretariat Pushpak",
+   "routes": [
+    "5K/92A"
+   ],
+   "lat": null,
+   "lon": null
+  }
+ },
+ "routes": [
+  {
+   "code": "8A",
+   "slug": "8a",
+   "from": "Secunderabad Railway Station",
+   "to": "Chandrayangutta X Road",
+   "trips": 16,
+   "num_stops": 37,
+   "directions": [
+    {
+     "headsign": "Secunderabad Railway Station",
+     "stops": [
+      {
+       "seq": 1,
+       "name": "Chandrayangutta X Road",
+       "slug": "chandrayangutta-x-road",
+       "t": "5:50 AM"
+      },
+      {
+       "seq": 2,
+       "name": "Falaknuma RLY Bridge",
+       "slug": "falaknuma-rly-bridge",
+       "t": "5:50 AM"
+      },
+      {
+       "seq": 3,
+       "name": "Engine Bowli",
+       "slug": "engine-bowli",
+       "t": "5:54 AM"
+      },
+      {
+       "seq": 4,
+       "name": "Shamsheergunj",
+       "slug": "shamsheergunj",
+       "t": "5:57 AM"
+      },
+      {
+       "seq": 5,
+       "name": "Aliyabad",
+       "slug": "aliyabad",
+       "t": "5:57 AM"
+      },
+      {
+       "seq": 6,
+       "name": "Sayed Ali Chabutra",
+       "slug": "sayed-ali-chabutra",
+       "t": "5:59 AM"
+      },
+      {
+       "seq": 7,
+       "name": "Lal Dharwaza Mode",
+       "slug": "lal-dharwaza-mode",
+       "t": "6:00 AM"
+      },
+      {
+       "seq": 8,
+       "name": "Shah Ali Banda X Road",
+       "slug": "shah-ali-banda-x-road",
+       "t": "6:02 AM"
+      },
+      {
+       "seq": 9,
+       "name": "Himmathpura / Shali Banda",
+       "slug": "himmathpura-shali-banda",
+       "t": "6:03 AM"
+      },
+      {
+       "seq": 10,
+       "name": "Chowmahalla Palace",
+       "slug": "chowmahalla-palace",
+       "t": "6:04 AM"
+      },
+      {
+       "seq": 11,
+       "name": "Khilwat",
+       "slug": "khilwat",
+       "t": "6:05 AM"
+      },
+      {
+       "seq": 12,
+       "name": "Lad Bazar",
+       "slug": "lad-bazar",
+       "t": "6:06 AM"
+      },
+      {
+       "seq": 13,
+       "name": "Moosa Bowli",
+       "slug": "moosa-bowli",
+       "t": "6:07 AM"
+      },
+      {
+       "seq": 14,
+       "name": "City College",
+       "slug": "city-college",
+       "t": "6:09 AM"
+      },
+      {
+       "seq": 15,
+       "name": "High Court",
+       "slug": "high-court",
+       "t": "6:11 AM"
+      },
+      {
+       "seq": 16,
+       "name": "Nayapul",
+       "slug": "nayapul",
+       "t": "6:12 AM"
+      },
+      {
+       "seq": 17,
+       "name": "Afzalgunj",
+       "slug": "afzalgunj",
+       "t": "6:13 AM"
+      },
+      {
+       "seq": 18,
+       "name": "Osmangunj",
+       "slug": "osmangunj",
+       "t": "6:15 AM"
+      },
+      {
+       "seq": 19,
+       "name": "Mozamjahi Market",
+       "slug": "mozamjahi-market",
+       "t": "6:17 AM"
+      },
+      {
+       "seq": 20,
+       "name": "Abids (G.P.O.)",
+       "slug": "abids-g-p-o",
+       "t": "6:18 AM"
+      },
+      {
+       "seq": 21,
+       "name": "Latha Talkies",
+       "slug": "latha-talkies",
+       "t": "6:21 AM"
+      },
+      {
+       "seq": 22,
+       "name": "Nampally Railway Station",
+       "slug": "nampally-railway-station",
+       "t": "6:21 AM"
+      },
+      {
+       "seq": 23,
+       "name": "Nampally Public Garden",
+       "slug": "nampally-public-garden",
+       "t": "6:23 AM"
+      },
+      {
+       "seq": 24,
+       "name": "L B Stadium Bus Stop",
+       "slug": "l-b-stadium-bus-stop",
+       "t": "6:25 AM"
+      },
+      {
+       "seq": 25,
+       "name": "Basheerbagh",
+       "slug": "basheerbagh",
+       "t": "6:26 AM"
+      },
+      {
+       "seq": 26,
+       "name": "Liberty",
+       "slug": "liberty",
+       "t": "6:27 AM"
+      },
+      {
+       "seq": 27,
+       "name": "Liberty – GHMC",
+       "slug": "liberty-ghmc",
+       "t": "6:28 AM"
+      },
+      {
+       "seq": 28,
+       "name": "Mini Tankbund",
+       "slug": "mini-tankbund",
+       "t": "6:29 AM"
+      },
+      {
+       "seq": 29,
+       "name": "Tank Bund",
+       "slug": "tank-bund",
+       "t": "6:35 AM"
+      },
+      {
+       "seq": 30,
+       "name": "Boats Club",
+       "slug": "boats-club",
+       "t": "6:38 AM"
+      },
+      {
+       "seq": 31,
+       "name": "Bible House",
+       "slug": "bible-house",
+       "t": "6:40 AM"
+      },
+      {
+       "seq": 32,
+       "name": "Bata",
+       "slug": "bata",
+       "t": "6:42 AM"
+      },
+      {
+       "seq": 33,
+       "name": "Patny Center",
+       "slug": "patny-center",
+       "t": "6:44 AM"
+      },
+      {
+       "seq": 34,
+       "name": "Clock Tower",
+       "slug": "clock-tower",
+       "t": "6:44 AM"
+      },
+      {
+       "seq": 35,
+       "name": "Sangeeth",
+       "slug": "sangeeth",
+       "t": "6:47 AM"
+      },
+      {
+       "seq": 36,
+       "name": "Keys High School",
+       "slug": "keys-high-school",
+       "t": "6:48 AM"
+      },
+      {
+       "seq": 37,
+       "name": "Secunderabad Railway Station",
+       "slug": "secunderabad-railway-station",
+       "t": "6:50 AM"
+      }
+     ]
+    },
+    {
+     "headsign": "Chandrayangutta X Road",
+     "stops": [
+      {
+       "seq": 1,
+       "name": "Secunderabad Railway Station",
+       "slug": "secunderabad-railway-station",
+       "t": "6:55 AM"
+      },
+      {
+       "seq": 2,
+       "name": "Secunderabad Bus Station",
+       "slug": "secunderabad-bus-station",
+       "t": "6:55 AM"
+      },
+      {
+       "seq": 3,
+       "name": "Clock Tower",
+       "slug": "clock-tower",
+       "t": "6:57 AM"
+      },
+      {
+       "seq": 4,
+       "name": "Patny Center",
+       "slug": "patny-center",
+       "t": "6:58 AM"
+      },
+      {
+       "seq": 5,
+       "name": "Bata",
+       "slug": "bata",
+       "t": "7:00 AM"
+      },
+      {
+       "seq": 6,
+       "name": "Bible House",
+       "slug": "bible-house",
+       "t": "7:02 AM"
+      },
+      {
+       "seq": 7,
+       "name": "Boats Club",
+       "slug": "boats-club",
+       "t": "7:03 AM"
+      },
+      {
+       "seq": 8,
+       "name": "DBR Mills",
+       "slug": "dbr-mills",
+       "t": "7:07 AM"
+      },
+      {
+       "seq": 9,
+       "name": "Liberty",
+       "slug": "liberty",
+       "t": "7:14 AM"
+      },
+      {
+       "seq": 10,
+       "name": "Basheerbagh",
+       "slug": "basheerbagh",
+       "t": "7:15 AM"
+      },
+      {
+       "seq": 11,
+       "name": "Nizam College",
+       "slug": "nizam-college",
+       "t": "7:17 AM"
+      },
+      {
+       "seq": 12,
+       "name": "Abids",
+       "slug": "abids",
+       "t": "7:19 AM"
+      },
+      {
+       "seq": 13,
+       "name": "Abids (G.P.O.)",
+       "slug": "abids-g-p-o",
+       "t": "7:21 AM"
+      },
+      {
+       "seq": 14,
+       "name": "Osmangunj",
+       "slug": "osmangunj",
+       "t": "7:24 AM"
+      },
+      {
+       "seq": 15,
+       "name": "Afzalgunj Bus Station",
+       "slug": "afzalgunj-bus-station",
+       "t": "7:26 AM"
+      },
+      {
+       "seq": 16,
+       "name": "Salarjung Museum",
+       "slug": "salarjung-museum",
+       "t": "7:27 AM"
+      },
+      {
+       "seq": 17,
+       "name": "Darul Shifa",
+       "slug": "darul-shifa",
+       "t": "7:29 AM"
+      },
+      {
+       "seq": 18,
+       "name": "Purani Haveli",
+       "slug": "purani-haveli",
+       "t": "7:31 AM"
+      },
+      {
+       "seq": 19,
+       "name": "Chadowki Masjid",
+       "slug": "chadowki-masjid",
+       "t": "7:33 AM"
+      },
+      {
+       "seq": 20,
+       "name": "Bibi Bazar",
+       "slug": "bibi-bazar",
+       "t": "7:35 AM"
+      },
+      {
+       "seq": 21,
+       "name": "Charminar",
+       "slug": "charminar",
+       "t": "7:37 AM"
+      },
+      {
+       "seq": 22,
+       "name": "Shah Ali Banda X Road",
+       "slug": "shah-ali-banda-x-road",
+       "t": "7:39 AM"
+      },
+      {
+       "seq": 23,
+       "name": "Lal Dharwaza Mode",
+       "slug": "lal-dharwaza-mode",
+       "t": "7:40 AM"
+      },
+      {
+       "seq": 24,
+       "name": "Sayed Ali Chabutra",
+       "slug": "sayed-ali-chabutra",
+       "t": "7:41 AM"
+      },
+      {
+       "seq": 25,
+       "name": "Aliyabad / Shamsheergunj",
+       "slug": "aliyabad-shamsheergunj",
+       "t": "7:43 AM"
+      },
+      {
+       "seq": 26,
+       "name": "Engine Bowli",
+       "slug": "engine-bowli",
+       "t": "7:46 AM"
+      },
+      {
+       "seq": 27,
+       "name": "Falaknuma Terminal",
+       "slug": "falaknuma-terminal",
+       "t": "7:48 AM"
+      },
+      {
+       "seq": 28,
+       "name": "Falaknuma RLY Bridge",
+       "slug": "falaknuma-rly-bridge",
+       "t": "7:50 AM"
+      },
+      {
+       "seq": 29,
+       "name": "Chandrayangutta X Road",
+       "slug": "chandrayangutta-x-road",
+       "t": "7:51 AM"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "5K/92A",
+   "slug": "5k-by-92a",
+   "from": "Aramghar",
+   "to": "Secunderabad Bus Station",
+   "trips": 7,
+   "num_stops": 26,
+   "directions": [
+    {
+     "headsign": "Aramghar",
+     "stops": [
+      {
+       "seq": 1,
+       "name": "Secunderabad Bus Station",
+       "slug": "secunderabad-bus-station",
+       "t": "6:45 AM"
+      },
+      {
+       "seq": 2,
+       "name": "Clock Tower",
+       "slug": "clock-tower",
+       "t": "6:47 AM"
+      },
+      {
+       "seq": 3,
+       "name": "Patny Center",
+       "slug": "patny-center",
+       "t": "6:47 AM"
+      },
+      {
+       "seq": 4,
+       "name": "Bata",
+       "slug": "bata",
+       "t": "6:49 AM"
+      },
+      {
+       "seq": 5,
+       "name": "Bible House",
+       "slug": "bible-house",
+       "t": "6:51 AM"
+      },
+      {
+       "seq": 6,
+       "name": "Boats Club",
+       "slug": "boats-club",
+       "t": "6:53 AM"
+      },
+      {
+       "seq": 7,
+       "name": "DBR Mills",
+       "slug": "dbr-mills",
+       "t": "6:56 AM"
+      },
+      {
+       "seq": 8,
+       "name": "Secretariat / L.I.C. Zonal Office",
+       "slug": "secretariat-l-i-c-zonal-office",
+       "t": "7:03 AM"
+      },
+      {
+       "seq": 9,
+       "name": "AG Office / Birla Mandir",
+       "slug": "ag-office-birla-mandir",
+       "t": "7:05 AM"
+      },
+      {
+       "seq": 10,
+       "name": "Lakdikapool",
+       "slug": "lakdikapool",
+       "t": "7:06 AM"
+      },
+      {
+       "seq": 11,
+       "name": "A.C. Guards",
+       "slug": "a-c-guards",
+       "t": "7:09 AM"
+      },
+      {
+       "seq": 12,
+       "name": "Masab Tank JNTU",
+       "slug": "masab-tank-jntu",
+       "t": "7:09 AM"
+      },
+      {
+       "seq": 13,
+       "name": "Masab Tank NMDC",
+       "slug": "masab-tank-nmdc",
+       "t": "7:13 AM"
+      },
+      {
+       "seq": 14,
+       "name": "SD Hospital",
+       "slug": "sd-hospital",
+       "t": "7:15 AM"
+      },
+      {
+       "seq": 15,
+       "name": "Mehdipatnam",
+       "slug": "mehdipatnam",
+       "t": "7:17 AM"
+      },
+      {
+       "seq": 16,
+       "name": "Rethibowli",
+       "slug": "rethibowli",
+       "t": "7:21 AM"
+      },
+      {
+       "seq": 17,
+       "name": "Laxmi Nagar",
+       "slug": "laxmi-nagar",
+       "t": "7:23 AM"
+      },
+      {
+       "seq": 18,
+       "name": "Jyothi Nagar",
+       "slug": "jyothi-nagar",
+       "t": "7:25 AM"
+      },
+      {
+       "seq": 19,
+       "name": "Ring Road",
+       "slug": "ring-road",
+       "t": "7:28 AM"
+      },
+      {
+       "seq": 20,
+       "name": "Attapur X Road",
+       "slug": "attapur-x-road",
+       "t": "7:30 AM"
+      },
+      {
+       "seq": 21,
+       "name": "Hyderguda X Road",
+       "slug": "hyderguda-x-road",
+       "t": "7:33 AM"
+      },
+      {
+       "seq": 22,
+       "name": "Upperpally X Road",
+       "slug": "upperpally-x-road",
+       "t": "7:37 AM"
+      },
+      {
+       "seq": 23,
+       "name": "Dairy Farm",
+       "slug": "dairy-farm",
+       "t": "7:41 AM"
+      },
+      {
+       "seq": 24,
+       "name": "Weaker Section Colony / Shivarampally Quarters",
+       "slug": "weaker-section-colony-shivarampally-quarters",
+       "t": "7:48 AM"
+      },
+      {
+       "seq": 25,
+       "name": "Shivarampally X Road",
+       "slug": "shivarampally-x-road",
+       "t": "7:50 AM"
+      },
+      {
+       "seq": 26,
+       "name": "Aramghar",
+       "slug": "aramghar",
+       "t": "7:52 AM"
+      }
+     ]
+    },
+    {
+     "headsign": "Secunderabad Bus Station",
+     "stops": [
+      {
+       "seq": 1,
+       "name": "Aramghar Cross Road",
+       "slug": "aramghar-cross-road",
+       "t": "6:45 AM"
+      },
+      {
+       "seq": 2,
+       "name": "Shivarampally X Road",
+       "slug": "shivarampally-x-road",
+       "t": "6:47 AM"
+      },
+      {
+       "seq": 3,
+       "name": "Weaker Section Colony / Shivarampally Quarters",
+       "slug": "weaker-section-colony-shivarampally-quarters",
+       "t": "6:50 AM"
+      },
+      {
+       "seq": 4,
+       "name": "Lal Dabha",
+       "slug": "lal-dabha",
+       "t": "6:54 AM"
+      },
+      {
+       "seq": 5,
+       "name": "Dairy Farm",
+       "slug": "dairy-farm",
+       "t": "6:57 AM"
+      },
+      {
+       "seq": 6,
+       "name": "Upperpally X Road",
+       "slug": "upperpally-x-road",
+       "t": "7:01 AM"
+      },
+      {
+       "seq": 7,
+       "name": "Shiva Nagar",
+       "slug": "shiva-nagar",
+       "t": "7:04 AM"
+      },
+      {
+       "seq": 8,
+       "name": "Hyderguda X Road",
+       "slug": "hyderguda-x-road",
+       "t": "7:06 AM"
+      },
+      {
+       "seq": 9,
+       "name": "Attapur",
+       "slug": "attapur",
+       "t": "7:08 AM"
+      },
+      {
+       "seq": 10,
+       "name": "Ring Road",
+       "slug": "ring-road",
+       "t": "7:11 AM"
+      },
+      {
+       "seq": 11,
+       "name": "Jyothi Nagar",
+       "slug": "jyothi-nagar",
+       "t": "7:13 AM"
+      },
+      {
+       "seq": 12,
+       "name": "Laxmi Nagar",
+       "slug": "laxmi-nagar",
+       "t": "7:15 AM"
+      },
+      {
+       "seq": 13,
+       "name": "Rethibowli",
+       "slug": "rethibowli",
+       "t": "7:18 AM"
+      },
+      {
+       "seq": 14,
+       "name": "Mehdipatnam",
+       "slug": "mehdipatnam",
+       "t": "7:21 AM"
+      },
+      {
+       "seq": 15,
+       "name": "SD Hospital",
+       "slug": "sd-hospital",
+       "t": "7:22 AM"
+      },
+      {
+       "seq": 16,
+       "name": "Masab Tank NMDC",
+       "slug": "masab-tank-nmdc",
+       "t": "7:25 AM"
+      },
+      {
+       "seq": 17,
+       "name": "Masab Tank JNTU",
+       "slug": "masab-tank-jntu",
+       "t": "7:28 AM"
+      },
+      {
+       "seq": 18,
+       "name": "Mahavir Hospital",
+       "slug": "mahavir-hospital",
+       "t": "7:28 AM"
+      },
+      {
+       "seq": 19,
+       "name": "A.C. Guards",
+       "slug": "a-c-guards",
+       "t": "7:29 AM"
+      },
+      {
+       "seq": 20,
+       "name": "Lakdikapul",
+       "slug": "lakdikapul",
+       "t": "7:30 AM"
+      },
+      {
+       "seq": 21,
+       "name": "Telephone Bhavan",
+       "slug": "telephone-bhavan",
+       "t": "7:32 AM"
+      },
+      {
+       "seq": 22,
+       "name": "Secretariat Pushpak",
+       "slug": "secretariat-pushpak",
+       "t": "7:35 AM"
+      },
+      {
+       "seq": 23,
+       "name": "Mini Tankbund",
+       "slug": "mini-tankbund",
+       "t": "7:36 AM"
+      },
+      {
+       "seq": 24,
+       "name": "Tank Bund",
+       "slug": "tank-bund",
+       "t": "7:42 AM"
+      },
+      {
+       "seq": 25,
+       "name": "Boats Club",
+       "slug": "boats-club",
+       "t": "7:45 AM"
+      },
+      {
+       "seq": 26,
+       "name": "Bible House",
+       "slug": "bible-house",
+       "t": "7:46 AM"
+      },
+      {
+       "seq": 27,
+       "name": "Bata",
+       "slug": "bata",
+       "t": "7:48 AM"
+      },
+      {
+       "seq": 28,
+       "name": "Patny Center",
+       "slug": "patny-center",
+       "t": "7:50 AM"
+      },
+      {
+       "seq": 29,
+       "name": "Clock Tower",
+       "slug": "clock-tower",
+       "t": "7:51 AM"
+      },
+      {
+       "seq": 30,
+       "name": "Secunderabad Bus Station",
+       "slug": "secunderabad-bus-station",
+       "t": "7:53 AM"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
