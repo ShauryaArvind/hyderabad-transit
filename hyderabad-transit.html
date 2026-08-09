@@ -123,6 +123,453 @@
   .src-note{ padding:12px 24px; border-top:1px solid var(--line); font-size:10.5px; color:var(--fog); line-height:1.5;}
   .src-note a{ color:var(--accent); text-decoration:none;}
 
+  /* ---- Upgrades CSS ---- */
+  .filters {
+    margin: 4px 0 12px;
+    background: rgba(0, 0, 0, 0.16);
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+  }
+  .filter-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: var(--fog);
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: block;
+  }
+  .mode-toggles {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .filter-btn {
+    flex: 1;
+    background: var(--ink2);
+    border: 1px solid var(--line);
+    color: var(--fg-dim);
+    padding: 6px 4px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  .filter-btn:hover {
+    border-color: var(--fog);
+  }
+  .filter-btn.active {
+    background: rgba(25, 195, 178, 0.12);
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: 0 0 8px rgba(25, 195, 178, 0.2);
+  }
+  .pref-toggles {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .pref-chk {
+    font-size: 10px;
+    color: var(--fg-dim);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    user-select: none;
+  }
+  .pref-chk input {
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+  .fare-badge {
+    display: inline-block;
+    background: rgba(25,195,178,.12);
+    color: var(--accent);
+    border: 1px solid rgba(25,195,178,.25);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  .custom-leaflet-popup .leaflet-popup-content-wrapper {
+    background: var(--panel) !important;
+    border: 1px solid var(--line) !important;
+    color: var(--fg) !important;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    padding: 8px 10px;
+  }
+  .custom-leaflet-popup .leaflet-popup-tip {
+    background: var(--panel) !important;
+    border-left: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .stop-popup {
+    min-width: 220px;
+    font-family: var(--sans);
+  }
+  .stop-popup h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: 800;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 4px;
+  }
+  .stop-popup .stop-modes {
+    margin-bottom: 8px;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .stop-popup .mode-badge {
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .mode-badge.metro { background: var(--blue); }
+  .mode-badge.mmts { background: var(--mmts); }
+  .mode-badge.bus { background: var(--bus); }
+  .stop-popup .stop-lines {
+    max-height: 100px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+  }
+  .stop-popup .stop-lines h4 {
+    font-size: 10px;
+    color: var(--fog);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+  .stop-popup .stop-lines ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .stop-popup .stop-lines li {
+    font-size: 11px;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--fg-dim);
+  }
+  .stop-popup .line-run-text {
+    color: var(--fog);
+    font-size: 10px;
+    margin-left: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
+    display: inline-block;
+  }
+  .stop-popup .line-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .stop-popup .stop-actions {
+    display: flex;
+    gap: 6px;
+  }
+  .stop-popup .popup-btn {
+    flex: 1;
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+  }
+  .stop-popup .from-btn {
+    background: var(--accent);
+    color: #04201d;
+  }
+  .stop-popup .from-btn:hover { background: #22d8c5; }
+  .stop-popup .to-btn {
+    background: var(--red);
+    color: #fff;
+  }
+  .stop-popup .to-btn:hover { background: #ff4d4d; }
+
+  .sim-start-btn {
+    background: linear-gradient(135deg, var(--accent), var(--accent-deep));
+    color: #04201d;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: inherit;
+    transition: transform 0.1s, box-shadow 0.15s;
+    box-shadow: 0 4px 12px rgba(25,195,178,0.25);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .sim-start-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(25,195,178,0.4);
+  }
+  .sim-start-btn:active {
+    transform: translateY(0);
+  }
+
+  /* ---- Simulation Panel ---- */
+  .sim-header {
+    margin-bottom: 16px;
+  }
+  .sim-back-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--fog);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.15s;
+    margin-bottom: 12px;
+  }
+  .sim-back-btn:hover {
+    border-color: var(--accent);
+    color: var(--fg);
+  }
+  .sim-header h2 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -.5px;
+    margin-bottom: 4px;
+  }
+  .sim-live-tag {
+    font-size: 9px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: .8px;
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { opacity: 0.4; }
+    50% { opacity: 1; }
+    100% { opacity: 0.4; }
+  }
+  .sim-progress-card {
+    background: var(--ink2);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .sim-vehicle-icon {
+    font-size: 28px;
+    background: rgba(25,195,178,0.12);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(25,195,178,0.1) inset;
+    flex-shrink: 0;
+  }
+  .sim-current-info {
+    flex-grow: 1;
+    min-width: 0;
+  }
+  .sim-line-badge {
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: var(--blue);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .sim-status-title {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--fg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sim-eta {
+    font-size: 11.5px;
+    color: var(--fog);
+    margin-top: 1px;
+  }
+  .sim-stops-tracker {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    margin-bottom: 16px;
+  }
+  .sim-tracker-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: var(--fog);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .sim-stops-scroller {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid var(--line);
+    background: rgba(0,0,0,0.12);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .sim-stop-row {
+    display: flex;
+    gap: 12px;
+    padding: 8px 0;
+    position: relative;
+    align-items: center;
+  }
+  .sim-stop-row:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 22px;
+    bottom: -10px;
+    width: 2px;
+    background: var(--line);
+  }
+  .sim-stop-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid var(--ink2);
+    background: var(--line);
+    z-index: 2;
+    flex-shrink: 0;
+    transition: 0.25s;
+  }
+  .sim-stop-row.passed .sim-stop-dot {
+    background: var(--accent);
+    box-shadow: 0 0 0 2px rgba(25,195,178,0.2);
+  }
+  .sim-stop-row.current .sim-stop-dot {
+    background: #fff;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px rgba(25,195,178,0.3);
+    animation: pulse-dot 1.2s infinite;
+  }
+  @keyframes pulse-dot {
+    0% { box-shadow: 0 0 0 0px rgba(25,195,178,0.4); }
+    70% { box-shadow: 0 0 0 6px rgba(25,195,178,0); }
+    100% { box-shadow: 0 0 0 0px rgba(25,195,178,0); }
+  }
+  .sim-stop-name {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--fog);
+    transition: color 0.25s;
+  }
+  .sim-stop-row.passed .sim-stop-name {
+    color: var(--fg-dim);
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  .sim-stop-row.current .sim-stop-name {
+    color: var(--fg);
+    font-weight: 700;
+  }
+  .sim-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    background: var(--panel);
+  }
+  .sim-ctrl-btn {
+    background: var(--ink2);
+    border: 1px solid var(--line);
+    color: var(--fg);
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.15s;
+  }
+  .sim-ctrl-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .sim-speed-wrap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--fog);
+  }
+  .sim-speed-wrap select {
+    background: var(--ink2);
+    border: 1px solid var(--line);
+    color: var(--fg);
+    border-radius: 6px;
+    padding: 5px 8px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .sim-speed-wrap select:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .custom-sim-icon {
+    z-index: 999 !important;
+  }
+  .sim-pulse-marker {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 0 6px rgba(255,255,255,0.25);
+    animation: marker-pulse 1.4s infinite;
+    transition: background-color 0.3s;
+  }
+  @keyframes marker-pulse {
+    0% { box-shadow: 0 0 0px rgba(25,195,178,0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(25,195,178,0); }
+    100% { box-shadow: 0 0 0 0px rgba(25,195,178,0); }
+  }
+
   @media (max-width:820px){
     body{ flex-direction:column;}
     .panel{ width:100%; min-width:0; height:auto; max-height:62%;}
@@ -150,29 +597,83 @@
     </div>
 
     <div class="tabpane" id="paneTrip">
-      <div class="search">
-        <div class="field">
-          <label>From</label>
-          <span class="pin from"></span>
-          <input id="from" autocomplete="off" placeholder="Start — station or area (e.g. Miyapur, Gachibowli)">
-          <div class="ac" id="acFrom" style="display:none"></div>
+      <div id="search-flow-wrap" style="flex:1; display:flex; flex-direction:column; min-height:0; width:100%;">
+        <div class="search">
+          <div class="field">
+            <label>From</label>
+            <span class="pin from"></span>
+            <input id="from" autocomplete="off" placeholder="Start — station or area (e.g. Miyapur, Gachibowli)">
+            <div class="ac" id="acFrom" style="display:none"></div>
+          </div>
+          <div class="field">
+            <label>To</label>
+            <span class="pin to"></span>
+            <input id="to" autocomplete="off" placeholder="Destination (e.g. HITEC City, LB Nagar)">
+            <div class="ac" id="acTo" style="display:none"></div>
+          </div>
+
+          <div class="filters">
+            <span class="filter-label">Include Modes</span>
+            <div class="mode-toggles">
+              <button class="filter-btn active" id="btn-metro" onclick="toggleMode('metro')">Ⓜ️ Metro</button>
+              <button class="filter-btn active" id="btn-mmts" onclick="toggleMode('mmts')">▤ MMTS</button>
+              <button class="filter-btn active" id="btn-bus" onclick="toggleMode('bus')">🚌 Bus</button>
+            </div>
+            <div class="pref-toggles">
+              <label class="pref-chk"><input type="checkbox" id="chk-min-transfers" onchange="togglePref('transfers')"> Min Transfers</label>
+              <label class="pref-chk"><input type="checkbox" id="chk-min-walk" onchange="togglePref('walk')"> Min Walking</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="swap" id="swap" title="Swap">⇅</button>
+            <button class="go" id="go">Find routes</button>
+          </div>
         </div>
-        <div class="field">
-          <label>To</label>
-          <span class="pin to"></span>
-          <input id="to" autocomplete="off" placeholder="Destination (e.g. HITEC City, LB Nagar)">
-          <div class="ac" id="acTo" style="display:none"></div>
-        </div>
-        <div class="row">
-          <button class="swap" id="swap" title="Swap">⇅</button>
-          <button class="go" id="go">Find routes</button>
+
+        <div class="results" id="results">
+          <div class="hint">
+            Try <b>Miyapur → HITEC City</b>, <b>LB Nagar → Secunderabad</b>, or <b>Nagole → Gachibowli</b>.<br><br>
+            Routes combine lines automatically and show every transfer.
+          </div>
         </div>
       </div>
 
-      <div class="results" id="results">
-        <div class="hint">
-          Try <b>Miyapur → HITEC City</b>, <b>LB Nagar → Secunderabad</b>, or <b>Nagole → Gachibowli</b>.<br><br>
-          Routes combine lines automatically and show every transfer.
+      <!-- Live Simulation Tracker panel -->
+      <div id="paneSim" style="display:none; flex-direction:column; flex:1; min-height:0; width:100%; background:var(--panel);">
+        <div class="sim-header">
+          <button class="sim-back-btn" onclick="stopSimulation()">← Exit Simulator</button>
+          <h2>Trip Tracker</h2>
+          <span class="sim-live-tag">● LIVE SIMULATION</span>
+        </div>
+
+        <div class="sim-progress-card">
+          <div class="sim-vehicle-icon" id="sim-icon">🚶</div>
+          <div class="sim-current-info">
+            <div class="sim-line-badge" id="sim-line-badge">Walking</div>
+            <div class="sim-status-title" id="sim-status-title">Riding route...</div>
+            <div class="sim-eta" id="sim-eta">ETA: -- min</div>
+          </div>
+        </div>
+
+        <div class="sim-stops-tracker">
+          <div class="sim-tracker-label">Stops &amp; Checkpoints</div>
+          <div class="sim-stops-scroller" id="sim-stops-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <div class="sim-controls">
+          <button class="sim-ctrl-btn" id="sim-play-pause" onclick="toggleSimPlayback()">⏸ Pause</button>
+          <div class="sim-speed-wrap">
+            <label>Speed:</label>
+            <select id="sim-speed-select" onchange="changeSimSpeed()">
+              <option value="1">1x</option>
+              <option value="10">10x</option>
+              <option value="35" selected>35x</option>
+              <option value="80">80x</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
@@ -346,18 +847,72 @@ function buildGraph(){
 let GRAPH=buildGraph();
 
 /* ---- Dijkstra over the boarding graph, with an optional banned set ----- */
+/* ---- Binary min-heap for the Dijkstra priority queue ---- */
+class MinHeap{
+  constructor(){ this.a=[]; }
+  get length(){ return this.a.length; }
+  push(item){
+    const a=this.a; a.push(item); let i=a.length-1;
+    while(i>0){ const p=(i-1)>>1; if(a[p][0]<=a[i][0]) break; [a[p],a[i]]=[a[i],a[p]]; i=p; }
+  }
+  pop(){
+    const a=this.a, top=a[0], last=a.pop();
+    if(a.length){
+      a[0]=last; let i=0;
+      while(true){
+        const l=2*i+1, r=2*i+2; let s=i;
+        if(l<a.length && a[l][0]<a[s][0]) s=l;
+        if(r<a.length && a[r][0]<a[s][0]) s=r;
+        if(s===i) break;
+        [a[s],a[i]]=[a[i],a[s]]; i=s;
+      }
+    }
+    return top;
+  }
+}
+
+/* ---- Dijkstra over the boarding graph, with an optional banned set ----- */
+const ACTIVE_MODES = { metro: true, mmts: true, bus: true };
+let MINIMIZE_TRANSFERS = false;
+let MINIMIZE_WALKING = false;
+
+function toggleMode(m) {
+  ACTIVE_MODES[m] = !ACTIVE_MODES[m];
+  document.getElementById('btn-' + m).classList.toggle('active', ACTIVE_MODES[m]);
+  run();
+}
+
+function togglePref(p) {
+  if (p === 'transfers') MINIMIZE_TRANSFERS = document.getElementById('chk-min-transfers').checked;
+  if (p === 'walk') MINIMIZE_WALKING = document.getElementById('chk-min-walk').checked;
+  run();
+}
+
 function dijkstra(srcStop,dstStop,bannedLines){
   const src="S|"+srcStop, dst="S|"+dstStop;
   const dist={[src]:0}, prev={}, seen={};
-  const pq=[[0,src]];
+  const pq=new MinHeap(); pq.push([0,src]);
+  // Defensive cap: no matter how large a future dataset import is, a single
+  // search can never hang the tab — it just gives up and reports no route.
+  let guard=0; const GUARD_MAX=500000;
   while(pq.length){
-    pq.sort((a,b)=>a[0]-b[0]);
-    const [d,u]=pq.shift();
+    if(++guard>GUARD_MAX) return null;
+    const [d,u]=pq.pop();
     if(seen[u]) continue; seen[u]=true;
     if(u===dst) break;
     for(const e of (GRAPH[u]||[])){
       if(e.info && e.info.line && bannedLines && bannedLines.has(e.info.line.id)) continue;
-      const nd=d+e.w;
+      if(e.info && e.info.line && !ACTIVE_MODES[e.info.line.mode]) continue;
+      
+      let edgeWeight = e.w;
+      if(MINIMIZE_TRANSFERS && e.info && e.info.type === "board") {
+        edgeWeight += 20; // 20 min boarding penalty
+      }
+      if(MINIMIZE_WALKING && e.info && e.info.type === "walk") {
+        edgeWeight += e.w * 3; // Triple walking cost
+      }
+
+      const nd=d+edgeWeight;
       if(nd<(dist[e.to]??Infinity)){ dist[e.to]=nd; prev[e.to]={u,e}; pq.push([nd,e.to]); }
     }
   }
@@ -466,18 +1021,64 @@ function drawNetwork(){
   for(const id in STOPS){
     if(!hasCoord(id) || isBusOnlyStop(id)) continue;
     const s=STOPS[id];
-    L.circleMarker([s.lat,s.lon],{radius:3,color:"#5b6675",weight:1,fillColor:"#1a212b",fillOpacity:1})
-      .bindTooltip(s.n,{className:"stop-tip"}).addTo(layerStops);
+    L.circleMarker([s.lat,s.lon],{radius:5,color:"#19c3b2",weight:1.5,fillColor:"#161c25",fillOpacity:1})
+      .bindTooltip(s.n,{className:"stop-tip"})
+      .on('click', (e) => {
+        L.DomEvent.stopPropagation(e);
+        showStopDetails(id, [s.lat, s.lon]);
+      })
+      .addTo(layerStops);
   }
 }
 
 let lastRoutes=[], selIdx=0;
+let lastSrcStop = null, lastDstStop = null;
+
+function calculateFare(legs) {
+  let totalFare = 0;
+  let metroStops = 0;
+  let hasMetro = false;
+
+  for(const lg of legs) {
+    if(lg.mode === "metro") {
+      hasMetro = true;
+      metroStops += lg.nStops;
+    } else if(lg.mode === "mmts") {
+      let fare = 5;
+      if(lg.nStops > 7) fare = 15;
+      else if(lg.nStops > 3) fare = 10;
+      totalFare += fare;
+    } else if(lg.mode === "bus") {
+      let fare = 10 + lg.nStops * 2;
+      if(fare > 35) fare = 35;
+      totalFare += fare;
+    }
+  }
+
+  if(hasMetro && metroStops > 0) {
+    let metroFare = 10;
+    if(metroStops === 1) metroFare = 10;
+    else if(metroStops === 2) metroFare = 15;
+    else if(metroStops <= 4) metroFare = 25;
+    else if(metroStops <= 6) metroFare = 35;
+    else if(metroStops <= 9) metroFare = 45;
+    else if(metroStops <= 14) metroFare = 50;
+    else if(metroStops <= 19) metroFare = 55;
+    else metroFare = 60;
+    totalFare += metroFare;
+  }
+  return totalFare;
+}
+
 function render(routes,srcStop,dstStop){
   lastRoutes=routes;
+  lastSrcStop=srcStop;
+  lastDstStop=dstStop;
   const box=document.getElementById('results');
   if(!routes.length){ box.innerHTML='<div class="hint">No route found between those points with the current network. Try nearby stations.</div>'; return; }
   box.innerHTML='';
   routes.forEach((r,idx)=>{
+    r.fare = calculateFare(r.legs);
     const el=document.createElement('div'); el.className='opt'+(idx===0?' sel':''); el.dataset.i=idx;
     const bar=r.legs.map((lg,i)=>{
       const c=cvar(lg.color);
@@ -488,7 +1089,10 @@ function render(routes,srcStop,dstStop){
     el.innerHTML=`
       <div class="opt-head">
         <div class="opt-time">${r.time}<small>min</small></div>
-        <div class="opt-meta">${r.transfers} transfer${r.transfers===1?'':'s'}<br>${r.legs.filter(l=>l.mode!=='walk').length} leg${r.legs.length===1?'':'s'}</div>
+        <div class="opt-meta">
+          ${r.transfers} transfer${r.transfers===1?'':'s'}<br>
+          <span class="fare-badge">Est. ₹${r.fare}</span>
+        </div>
       </div>
       <div class="opt-bar">${bar}</div>
       <div class="detail">${detailHtml(r)}</div>`;
@@ -517,7 +1121,11 @@ function detailHtml(r){
       <div class="ttl">${lg.fromName} → ${lg.toName}</div>
       <div class="sub">${lg.nStops} stop${lg.nStops===1?'':'s'} · ~${Math.round(lg.ride)} min ride · ~${Math.round(lg.wait)} min wait${lg.run?'<br><span style="opacity:.8">Route: '+lg.run+'</span>':''}</div>
       </div></div>`;
-  }).join('');
+  }).join('') + `
+    <div style="margin-top:14px; border-top:1px solid var(--line); padding-top:12px; text-align:center;">
+      <button class="sim-start-btn" onclick="startSimulation(event)">🚀 Start Live Simulation</button>
+    </div>
+  `;
 }
 function drawRoute(r){
   layerRoute.clearLayers();
@@ -535,6 +1143,291 @@ function drawRoute(r){
   });
   if(all.length) map.fitBounds(L.latLngBounds(all).pad(0.28));
 }
+
+/* ---- Stop Details Popup & Click Interactivity ---- */
+function showStopDetails(id, latlng) {
+  const s = STOPS[id];
+  const modes = modeOfStop(id);
+  const linesPassing = LINES.filter(l => l.stops.includes(id));
+  
+  let modeBadges = modes.map(m => `<span class="mode-badge ${m}">${MODE_META[m].ic} ${m.toUpperCase()}</span>`).join(' ');
+  let lineList = linesPassing.map(l => {
+    const color = cvar(l.color);
+    const name = l.code || l.name;
+    const run = l.run || 'Transit line';
+    return `<li><span class="line-dot" style="background:${color}"></span><b>${name}</b> <span class="line-run-text">${run}</span></li>`;
+  }).join('');
+
+  if(!lineList) lineList = '<li>No regular lines stop here directly.</li>';
+
+  const html = `
+    <div class="stop-popup">
+      <h3>${s.n}</h3>
+      <div class="stop-modes">${modeBadges}</div>
+      <div class="stop-lines">
+        <h4>Passing Routes</h4>
+        <ul>${lineList}</ul>
+      </div>
+      <div class="stop-actions">
+        <button class="popup-btn from-btn" onclick="setSearchStop('${id}', 'from')">Set Start</button>
+        <button class="popup-btn to-btn" onclick="setSearchStop('${id}', 'to')">Set Dest</button>
+      </div>
+    </div>
+  `;
+
+  L.popup({className: 'custom-leaflet-popup'})
+    .setLatLng(latlng)
+    .setContent(html)
+    .openOn(map);
+}
+
+window.setSearchStop = function(id, field) {
+  document.getElementById(field).value = STOPS[id].n;
+  map.closePopup();
+  run();
+};
+
+/* ---- Live Simulation Engine ---- */
+let simMarker = null;
+let simInterval = null;
+let simPath = [];
+let simCheckpoints = [];
+let simIndex = 0;
+let simIsPaused = false;
+let simSpeed = 35; // Steps per second
+
+function getSimulationPath(r, srcStop, dstStop) {
+  const path = [];
+  r.legs.forEach((lg, lIdx) => {
+    if(lg.mode !== "walk") {
+      lg.stops.forEach((sId, sIdx) => {
+        if (sIdx > 0 && path.length > 0 && path[path.length - 1].id === sId) {
+          return;
+        }
+        if (hasCoord(sId)) {
+          path.push({
+            id: sId,
+            name: STOPS[sId].n,
+            lat: STOPS[sId].lat,
+            lon: STOPS[sId].lon,
+            mode: lg.mode,
+            lineName: lg.lineName,
+            color: lg.color
+          });
+        }
+      });
+    } else {
+      let sA = null;
+      if (lIdx > 0 && r.legs[lIdx-1].stops) {
+        const prevStops = r.legs[lIdx-1].stops;
+        sA = prevStops[prevStops.length - 1];
+      } else {
+        sA = srcStop;
+      }
+      let sB = null;
+      if (lIdx < r.legs.length - 1 && r.legs[lIdx+1].stops) {
+        sB = r.legs[lIdx+1].stops[0];
+      } else {
+        sB = dstStop;
+      }
+
+      if(sA && hasCoord(sA) && (!path.length || path[path.length-1].id !== sA)) {
+        path.push({
+          id: sA,
+          name: STOPS[sA].n,
+          lat: STOPS[sA].lat,
+          lon: STOPS[sA].lon,
+          mode: "walk",
+          lineName: "Walking",
+          color: "--walk"
+        });
+      }
+      if(sB && hasCoord(sB)) {
+        path.push({
+          id: sB,
+          name: STOPS[sB].n,
+          lat: STOPS[sB].lat,
+          lon: STOPS[sB].lon,
+          mode: "walk",
+          lineName: "Walking",
+          color: "--walk"
+        });
+      }
+    }
+  });
+  return path;
+}
+
+function interpolatePoints(pA, pB, count = 20) {
+  const pts = [];
+  for(let i = 0; i < count; i++) {
+    const t = i / count;
+    pts.push({
+      lat: pA.lat + (pB.lat - pA.lat) * t,
+      lon: pA.lon + (pB.lon - pA.lon) * t,
+      currentStopName: pA.name,
+      nextStopName: pB.name,
+      nextStopId: pB.id,
+      prevStopId: pA.id,
+      mode: pB.mode,
+      lineName: pB.lineName,
+      color: pB.color
+    });
+  }
+  return pts;
+}
+
+function runSimStep() {
+  if (simIsPaused) return;
+  if (simIndex >= simPath.length) {
+    stopSimulation();
+    alert("Trip completed!");
+    return;
+  }
+  const step = simPath[simIndex];
+  const latlng = [step.lat, step.lon];
+  
+  let emoji = "🚶";
+  if(step.mode === "metro") emoji = "Ⓜ️";
+  else if(step.mode === "mmts") emoji = "▤";
+  else if(step.mode === "bus") emoji = "🚌";
+
+  if (!simMarker) {
+    const customIcon = L.divIcon({
+      html: `<div class="sim-pulse-marker" style="background:${cvar(step.color)}">${emoji}</div>`,
+      className: 'custom-sim-icon',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+    simMarker = L.marker(latlng, {icon: customIcon}).addTo(map);
+  } else {
+    simMarker.setLatLng(latlng);
+    const iconEl = simMarker.getElement();
+    if (iconEl) {
+      const inner = iconEl.querySelector('.sim-pulse-marker');
+      if(inner) {
+        inner.style.background = cvar(step.color);
+        inner.innerText = emoji;
+      }
+    }
+  }
+
+  if (!map.getBounds().pad(-0.1).contains(simMarker.getLatLng())) {
+    map.panTo(simMarker.getLatLng());
+  }
+
+  document.getElementById('sim-icon').innerText = emoji;
+  const badge = document.getElementById('sim-line-badge');
+  badge.innerText = step.lineName;
+  badge.style.background = cvar(step.color);
+
+  const statusTitle = document.getElementById('sim-status-title');
+  if(step.mode === "walk") {
+    statusTitle.innerText = `Walking to ${step.nextStopName}`;
+  } else {
+    statusTitle.innerText = `Riding towards ${step.nextStopName}`;
+  }
+
+  const remainingSteps = simPath.length - simIndex;
+  const estMins = Math.ceil(remainingSteps * 0.15);
+  document.getElementById('sim-eta').innerText = `ETA: ${estMins} min remaining`;
+
+  updateChecklistStops(step.prevStopId, step.nextStopId);
+  simIndex++;
+}
+
+function updateChecklistStops(currentStopId, nextStopId) {
+  const rows = document.querySelectorAll('.sim-stop-row');
+  let reachedCurrent = false;
+  rows.forEach(row => {
+    const id = row.id.replace('sim-stop-', '');
+    if (id === currentStopId) {
+      row.className = 'sim-stop-row current';
+      reachedCurrent = true;
+      row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } else if (id === nextStopId) {
+      if (!reachedCurrent) {
+        row.className = 'sim-stop-row current';
+      } else {
+        row.className = 'sim-stop-row';
+      }
+    } else {
+      const idxOfRow = simCheckpoints.findIndex(cp => cp.id === id);
+      const idxOfCurrent = simCheckpoints.findIndex(cp => cp.id === currentStopId);
+      if (idxOfRow < idxOfCurrent && idxOfRow !== -1) {
+        row.className = 'sim-stop-row passed';
+      } else {
+        row.className = 'sim-stop-row';
+      }
+    }
+  });
+}
+
+function renderSimulationChecklist(checkpoints) {
+  const list = document.getElementById('sim-stops-list');
+  list.innerHTML = checkpoints.map(cp => `
+    <div class="sim-stop-row" id="sim-stop-${cp.id}">
+      <div class="sim-stop-dot"></div>
+      <div class="sim-stop-name">${cp.name}</div>
+    </div>
+  `).join('');
+}
+
+window.startSimulation = function(event) {
+  if (event) event.stopPropagation();
+  const route = lastRoutes[selIdx];
+  if (!route || !lastSrcStop || !lastDstStop) return;
+
+  simCheckpoints = getSimulationPath(route, lastSrcStop, lastDstStop);
+  if (simCheckpoints.length < 2) return;
+
+  simPath = [];
+  for(let i = 0; i < simCheckpoints.length - 1; i++) {
+    simPath.push(...interpolatePoints(simCheckpoints[i], simCheckpoints[i+1], 15));
+  }
+
+  // Hide search options & tabs header while simulating
+  document.getElementById('search-flow-wrap').style.display = 'none';
+  document.querySelector('.tabs').style.display = 'none';
+  document.getElementById('paneSim').style.display = 'flex';
+
+  renderSimulationChecklist(simCheckpoints);
+
+  simIndex = 0;
+  simIsPaused = false;
+  document.getElementById('sim-play-pause').innerText = "⏸ Pause";
+
+  if (simInterval) clearInterval(simInterval);
+  simInterval = setInterval(runSimStep, 1000 / simSpeed);
+};
+
+window.stopSimulation = function() {
+  if (simInterval) {
+    clearInterval(simInterval);
+    simInterval = null;
+  }
+  if (simMarker) {
+    map.removeLayer(simMarker);
+    simMarker = null;
+  }
+  document.getElementById('paneSim').style.display = 'none';
+  document.querySelector('.tabs').style.display = 'flex';
+  document.getElementById('search-flow-wrap').style.display = 'flex';
+  drawRoute(lastRoutes[selIdx]);
+};
+
+window.toggleSimPlayback = function() {
+  simIsPaused = !simIsPaused;
+  document.getElementById('sim-play-pause').innerText = simIsPaused ? "▶ Play" : "⏸ Pause";
+};
+
+window.changeSimSpeed = function() {
+  simSpeed = parseInt(document.getElementById('sim-speed-select').value);
+  if (simInterval && !simIsPaused) {
+    clearInterval(simInterval);
+    simInterval = setInterval(runSimStep, 1000 / simSpeed);
+  }
+};
 
 /* ---- Bus route browser: list every bus route, draw only the clicked one ---- */
 function escapeHtml(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
